@@ -1,0 +1,37 @@
+﻿/* Styles for the div container */
+div {
+    height: 200px;
+    width: 400px;
+    color: white; /* Set text color to white for better visibility */
+    background: black; /* Background color for contrast */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; /* Half of div height to vertically center */
+    margin-left: -200px; /* Half of div width to horizontally center */
+    text-align: center; /* Center text and inputs inside the div */
+    padding: 20px; /* Optional padding for better spacing */
+}
+
+/* Styles for the textarea */
+textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+    padding: 10px 60px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+    input[type="submit"]:hover {
+        background-color: gray;
+        color: white;
+    }
